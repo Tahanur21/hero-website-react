@@ -12,6 +12,7 @@ const routes = createBrowserRouter([
         {
             path: '/',
             Component: Home,
+            loader: async () => fetch('../../public/application.json'),
         },
         {
           path: '/app',
@@ -20,7 +21,8 @@ const routes = createBrowserRouter([
         {
           path: '/installation',
           Component: Installation,
-        }
+        },
+
     ]
   }
 ])

@@ -91,7 +91,7 @@ const NavBar = () => {
       </div>
       <div className="navbar-end mr-5">
         <a
-          href="#"
+          href="https://github.com/Tahanur21/hero-website-react"
           className="btn btn-primary flex items-center gap-2"
         >
           <DiGithubBadge className="text-xl" /> Contribute
