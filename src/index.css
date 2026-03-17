@@ -1,0 +1,6 @@
+ @import "tailwindcss";
+ @plugin "daisyui";
+
+ .text-color{
+    color: #632EE3;
+ }

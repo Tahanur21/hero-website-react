@@ -1,0 +1,218 @@
+[
+  {
+    "image": "https://i.ibb.co.com/qF7f7bph/712-Ox12-Wkq-L.png",
+    "title": "Chat Master",
+    "companyName": "TechSoft Ltd.",
+    "id": 1,
+    "description": "A fast and secure messaging application.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 470 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9kbmDjKF/PL8-X94ef-Bsjvhf-QV3wyyj-ekr-KVFv-Jlrip-Vv1e-ZS74-20250808-085152.webp",
+    "title": "Photo Editor Pro",
+    "companyName": "Pixel Studio",
+    "id": 2,
+    "description": "Advanced photo editing tools for professionals.",
+    "size": 78,
+    "reviews": 2200,
+    "ratingAvg": 4.7,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1350 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9H2yywtZ/Fitness-Tracker.png",
+    "title": "Fitness Tracker",
+    "companyName": "HealthCorp",
+    "id": 3,
+    "description": "Track your daily fitness and health activities.",
+    "size": 60,
+    "reviews": 1800,
+    "ratingAvg": 4.3,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 610 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y7CNmg4W/Food-Delivery.png",
+    "title": "Food Delivery",
+    "companyName": "QuickEats",
+    "id": 4,
+    "description": "Order food from your favorite restaurants.",
+    "size": 40,
+    "reviews": 2500,
+    "ratingAvg": 4.2,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 880 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rf0JHR4y/Gaming-Hub.png",
+    "title": "Gaming Hub",
+    "companyName": "FunGames Inc.",
+    "id": 5,
+    "description": "Play trending games in one place.",
+    "size": 150,
+    "reviews": 4000,
+    "ratingAvg": 4.6,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2050 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Z1bT9HNZ/Music-Stream.png",
+    "title": "Music Stream",
+    "companyName": "SoundWave",
+    "id": 6,
+    "description": "Stream millions of songs online.",
+    "size": 55,
+    "reviews": 3000,
+    "ratingAvg": 4.6,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SDMBGMNB/Note-Keeper.png",
+    "title": "Note Keeper",
+    "companyName": "SmartApps",
+    "id": 7,
+    "description": "Organize your notes efficiently.",
+    "size": 30,
+    "reviews": 1100,
+    "ratingAvg": 4.4,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 310 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BHyp0CwM/Online-Learning.png",
+    "title": "Online Learning",
+    "companyName": "EduTech",
+    "id": 8,
+    "description": "Access courses from top instructors.",
+    "size": 90,
+    "reviews": 3200,
+    "ratingAvg": 4.8,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2120 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BK4VdWCZ/Finance-Manager.png",
+    "title": "Finance Manager",
+    "companyName": "MoneyWise",
+    "id": 9,
+    "description": "Manage your expenses and savings.",
+    "size": 50,
+    "reviews": 1300,
+    "ratingAvg": 4.2,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/67J8yfG4/Travel-Guide.png",
+    "title": "Travel Guide",
+    "companyName": "ExploreWorld",
+    "id": 10,
+    "description": "Discover new places and plan trips.",
+    "size": 70,
+    "reviews": 1700,
+    "ratingAvg": 4.5,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 540 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hxXmStZR/Video-Player-HD.png",
+    "title": "Video Player HD",
+    "companyName": "MediaWorks",
+    "id": 11,
+    "description": "Play all video formats in HD quality.",
+    "size": 65,
+    "reviews": 1400,
+    "ratingAvg": 4.3,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3yWfBc0V/Weather-Now.png",
+    "title": "Weather Now",
+    "companyName": "SkyTech",
+    "id": 12,
+    "description": "Get real-time weather updates.",
+    "size": 25,
+    "reviews": 900,
+    "ratingAvg": 4.1,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 240 }
+    ]
+  }
+]
