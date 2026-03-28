@@ -47,7 +47,7 @@ const NavBar = () => {
 )
   return (
     <div className="navbar bg-base-100 shadow-sm">
-      <div className="navbar-start px-8">
+      <div className="navbar-start lg:px-8">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -77,7 +77,7 @@ const NavBar = () => {
         </div>
         <div className="flex items-center btn btn-ghost">
           <img className="w-6 h-6 object-cover" src="src/assets/logo.png" alt="_blank" />
-          <a className="text-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+          <a href="/" className="text-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
             HERO.IO
           </a>
         </div>

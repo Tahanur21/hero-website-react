@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router";
+import { NavLink, useLoaderData } from "react-router";
 import Banner from "../Banner/Banner";
 import Cards from "./semi-pages/Cards";
 import { useEffect, useState } from "react";
@@ -8,7 +8,7 @@ const Home = () => {
   const [application, setApp] = useState([]);
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
-    setApp(data.slice(0,10));
+    setApp(data.slice(0,8));
   }, []);
   return (
     <div>
@@ -21,7 +21,7 @@ const Home = () => {
         </p>
       </div>
       {/* cards */}
-         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-5 px-10 mt-15">
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-5 lg:px-10 lg:mt-15">
             {
                 application.map((app)=> (
                     <Cards key={app.id} app={app}/>
@@ -29,10 +29,12 @@ const Home = () => {
             }
          </div>
          {/* show all button */}
-         <div>
-            <button>
+         <div className="text-center">
+          <NavLink to={'/app'}>
+            <button className="btn btn-primary">
                 Show All
             </button>
+          </NavLink>
          </div>
     </div>
   );
