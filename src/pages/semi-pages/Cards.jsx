@@ -12,7 +12,7 @@ const Cards = ({ app }) => {
         onClick={handleDetails}
         className="hover-3d my-12 mx-2 cursor-pointer"
       >
-        <div className="card bg-base-100 shadow-sm px-5 pt-2">
+        <div className="card lg:w-fit bg-base-100 shadow-sm px-5 pt-2">
           <figure className="bg-stone-200 p-3 shadow-sm rounded-2xl">
             <img className="w-3/4 z-10" src={image} alt={title} />
           </figure>

@@ -17,7 +17,7 @@ const Apps = () => {
 
   return (
     <>
-      <div className="space-y-10 px-13 mt-14">
+      <div className="space-y-10 px-13 pt-10">
         <div className="text-center space-y-4">
           <h1 className="text-2xl lg:text-4xl font-bold">
             Our All Applications

@@ -1,7 +1,7 @@
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from "recharts";
 
-const Detail = ({items}) => {
-      const { image, title, companyName, size, reviews, id, downloads, ratingAvg, description, ratings } = items
+const Detail = ({items,handleAddValue,isActive}) => {
+      const { image, title, companyName, size, reviews, id, downloads, ratingAvg, description } = items
 
   const total = Number(downloads);
 
@@ -62,8 +62,12 @@ const Detail = ({items}) => {
 
             </div>
 
-            <button className="mt-6 w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md font-semibold">
-              Install Now ({size}MB)
+            <button disabled={isActive} onClick={()=> handleAddValue(items)} 
+            className="mt-6 w-fit sm:w-auto bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md font-semibold cursor-pointer">
+              {
+                isActive === true ? "Installed" :
+                `Install Now (${size}MB)`
+              }
             </button>
           </div>
         </div>

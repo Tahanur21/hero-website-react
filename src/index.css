@@ -4,3 +4,6 @@
  .text-color{
     color: #632EE3;
  }
+ body{
+   overflow-y: scroll;
+ }

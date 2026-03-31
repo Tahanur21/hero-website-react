@@ -8,7 +8,7 @@ const LayOuts = () => {
       <div>
         <NavBar />
       </div>
-      <div className="max-w-8xl min-h-[calc(100vh-230px)] mx-auto">
+      <div className="max-w-8xl min-h-[calc(100vh-200px)] mx-auto bg-base-200 pb-8">
         <Outlet />
       </div>
       <Footer />
