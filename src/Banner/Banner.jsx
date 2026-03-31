@@ -12,17 +12,17 @@ const Banner = () => {
         </p>
         <div className="flex justify-center items-center gap-4 mt-6">
           <button className="btn p-7 rounded-xl">
-              <img className="h-12 cursor-pointer" src="src/assets/google_play_icon-icons.com_72023.png" alt="Google Play" /> Google Play
+              <img className="h-12 cursor-pointer" src="/assets/google_play_icon-icons.com_72023.png" alt="Google Play" /> Google Play
           </button>
           <button className="btn p-7 rounded-xl">
-          <img className="h-12 cursor-pointer" src="src/assets/appstore.png" alt="App Store" /> App Store
+          <img className="h-12 cursor-pointer" src="/assets/appstore.png" alt="App Store" /> App Store
           </button>
         </div>
       </div>
 
       {/* banner image */}
       <div className="relative flex justify-center">
-        <img src="src/assets/hero.png" alt="app_preview" className="w-full max-w-4/5 lg:max-w-3/5 z-10" />
+        <img src="/assets/hero.png" alt="app_preview" className="w-full max-w-4/5 lg:max-w-3/5 z-10" />
       </div>
 
       {/* stats section */}

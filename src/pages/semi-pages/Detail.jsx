@@ -36,7 +36,7 @@ const Detail = ({items,handleAddValue,isActive}) => {
               
               <div>
                 <div className="text-green-500 text-2xl">
-                    <img className="w-6 sm:w-8 mx-auto lg:mx-0" src="/src/assets/icon-downloads.png" alt="" />
+                    <img className="w-6 sm:w-8 mx-auto lg:mx-0" src="/assets/icon-downloads.png" alt="" />
                 </div>
                 <p className="text-gray-500 text-xs sm:text-sm">Downloads</p>
                 <p className="text-lg sm:text-xl font-bold text-gray-800">
@@ -46,7 +46,7 @@ const Detail = ({items,handleAddValue,isActive}) => {
 
               <div>
                 <div className="text-orange-400 text-2xl">
-                    <img className="w-6 sm:w-8 mx-auto lg:mx-0" src="/src/assets/icon-ratings.png" alt="" />
+                    <img className="w-6 sm:w-8 mx-auto lg:mx-0" src="/assets/icon-ratings.png" alt="" />
                 </div>
                 <p className="text-gray-500 text-xs sm:text-sm">Average Ratings</p>
                 <p className="text-lg sm:text-xl font-bold text-gray-800">{ratingAvg}</p>
@@ -54,7 +54,7 @@ const Detail = ({items,handleAddValue,isActive}) => {
 
               <div>
                 <div className="text-purple-500 text-2xl">
-                    <img className="w-6 sm:w-8 mx-auto lg:mx-0" src="/src/assets/icon-review.png" alt="" />
+                    <img className="w-6 sm:w-8 mx-auto lg:mx-0" src="/assets/icon-review.png" alt="" />
                 </div>
                 <p className="text-gray-500 text-xs sm:text-sm">Total Reviews</p>
                 <p className="text-lg sm:text-xl font-bold text-gray-800">{reviews}</p>

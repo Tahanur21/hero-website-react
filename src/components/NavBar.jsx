@@ -76,7 +76,7 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="flex items-center btn btn-ghost">
-          <img className="w-6 h-6 object-cover" src="src/assets/logo.png" alt="_blank" />
+          <img className="w-6 h-6 object-cover" src="/assets/logo.png" alt="_blank" />
           <a href="/" className="text-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
             HERO.IO
           </a>

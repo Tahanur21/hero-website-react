@@ -19,7 +19,7 @@ const routes = createBrowserRouter([
         Component: Home,
         loader: async () => {
           await delay(500);
-          return fetch("../../public/application.json");
+          return fetch("/application.json");
         },
       },
       {
@@ -27,7 +27,7 @@ const routes = createBrowserRouter([
         Component: Apps,
         loader: async () => {
           await delay(500);
-          return fetch("../../public/application.json");
+          return fetch("/application.json");
         },
       },
       {
@@ -35,7 +35,7 @@ const routes = createBrowserRouter([
         Component: Installation,
         loader: async () => {
           await delay(500);
-          return fetch("../../public/application.json");
+          return fetch("/application.json");
         },
       },
       {
@@ -43,7 +43,7 @@ const routes = createBrowserRouter([
         Component: Details,
         loader: async () => {
           await delay(500);
-          return fetch("../../public/application.json");
+          return fetch("/application.json");
         },
       },
       {
@@ -51,7 +51,7 @@ const routes = createBrowserRouter([
         Component: Details,
         loader: async () => {
           await delay(500);
-          return fetch("../../public/application.json");
+          return fetch("/application.json");
         },
       },
     ],

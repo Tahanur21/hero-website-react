@@ -22,7 +22,7 @@ const Cards = ({ app }) => {
               <button className="btn">
                 <img
                   className="w-4"
-                  src={"src/assets/icon-downloads.png"}
+                  src={"/assets/icon-downloads.png"}
                   alt="downloading..."
                 />
                 <p>
@@ -32,7 +32,7 @@ const Cards = ({ app }) => {
                 </p>
               </button>
               <div className="badge badge-soft badge-warning">
-                <img className="w-4" src="src/assets/icon-ratings.png" alt="" />
+                <img className="w-4" src="/assets/icon-ratings.png" alt="" />
                 {ratingAvg}
               </div>
             </div>
