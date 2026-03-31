@@ -6,36 +6,53 @@ import Installation from "../pages/Installation";
 import Details from "../pages/semi-pages/Details";
 import ErrorPage from "../components/ErrorPage";
 
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
 const routes = createBrowserRouter([
   {
     path: "/",
     Component: LayOuts,
-    errorElement: <ErrorPage/>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
         Component: Home,
-        loader: async () => fetch("../../public/application.json"),
+        loader: async () => {
+          await delay(500);
+          return fetch("../../public/application.json");
+        },
       },
       {
         path: "/app",
         Component: Apps,
-        loader: async () => fetch("../../public/application.json"),
+        loader: async () => {
+          await delay(500);
+          return fetch("../../public/application.json");
+        },
       },
       {
         path: "/installation",
         Component: Installation,
-        loader: async () => fetch("../../public/application.json"),
+        loader: async () => {
+          await delay(500);
+          return fetch("../../public/application.json");
+        },
       },
       {
         path: "/details",
         Component: Details,
-        loader: async () => fetch("../../public/application.json"),
+        loader: async () => {
+          await delay(500);
+          return fetch("../../public/application.json");
+        },
       },
       {
         path: "/details/:id",
         Component: Details,
-        loader: async () => fetch("../../public/application.json"),
+        loader: async () => {
+          await delay(500);
+          return fetch("../../public/application.json");
+        },
       },
     ],
   },

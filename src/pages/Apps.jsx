@@ -59,7 +59,7 @@ const Apps = () => {
         </div>
       </div>
       {
-        searchFilter.length === 0 ? 
+        searchFilter.length === 0 && search.length > 0 ? 
         <div className="min-h-[calc(100vh-300px)]">
             <AppError/>
         </div>

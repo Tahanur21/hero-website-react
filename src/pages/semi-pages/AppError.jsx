@@ -1,4 +1,5 @@
 import { Puff } from "react-loader-spinner";
+import { NavLink } from "react-router";
 
 const AppError = () => {
   return (
@@ -18,11 +19,11 @@ const AppError = () => {
       <p className="text-stone-500">
         The page you are looking for is not available.
       </p>
-      {/* <div>
-            <a href="/">
-            <button className="btn btn-primary">Go Back!</button>
-            </a>
-        </div> */}
+      <div>
+            <NavLink to={'/'}>
+              <button className="btn btn-primary">Go Back!</button>
+            </NavLink>
+        </div>
     </div>
   );
 };
